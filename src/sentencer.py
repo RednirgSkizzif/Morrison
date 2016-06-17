@@ -18,8 +18,8 @@ def break_into_sentences(textFile):
    
     
     text = working_file.read()
-    print text
-    print " "
+    print(text)
+    print(" ")
     characters = len(text)
     startingPoint=0
     for i in range (0,characters):
@@ -27,8 +27,8 @@ def break_into_sentences(textFile):
             output_array.append(text[startingPoint:i+1])
             startingPoint=i+1
     for x in range(0,len(output_array)):
-        print output_array[x]
-        print "----------------------------------------"
+        print(output_array[x])
+        print("----------------------------------------")
 
     working_file.close()
     return output_array
