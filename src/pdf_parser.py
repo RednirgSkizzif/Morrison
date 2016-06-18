@@ -5,12 +5,11 @@ Created on Fri Jun 17 11:34:44 2016
 @author: Alex Kerr
 """
 
-import sys
-
+from sys import argv
 import slate
 
-#paper = sys.argv[1]
-paper = "math.pdf"
+script,paper = argv
+
 
 def main():
     
