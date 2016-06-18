@@ -12,10 +12,11 @@ script,paper = argv
 
 
 def main():
-    
+    output_file = open('text_from_pdf.txt','w')
     with open(paper) as f:
         papertext = slate.PDF(f)
         
-    print(papertext)
-    
+    for i in range(0,len(papertext)):
+        output_file.write(papertext[i])
+
 main()
