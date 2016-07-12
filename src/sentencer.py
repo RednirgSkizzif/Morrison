@@ -30,11 +30,12 @@ def break_into_sentences(textFile):
     return output_array
 
 def tokenize_sentence(sentence):
-#	"""This function will assign a part of speech with each word in a sentence"""
+#	"This function will assign a part of speech with each word in a sentence"
 	tokens = gram.word_tokenize(sentence)
 	return tokens
 
 def identify_words(wordlist):
+#	This function will take a list of words and output a 2XN array of those words coupled with their part of speech using nltk syntax
 	word_types = gram.pos_tag(wordlist)
 	return word_types
 

@@ -1,5 +1,6 @@
 nltk
 pdfminer
 
-nltk 'punkt' dataset
-	sudo python -m nltk.downloader punkt	
+nltk 'punkt' and 'tree' dataset
+	sudo python -m nltk.downloader punkt
+	sudo python -m nltk.downloader maxent_treebank_pos_tagger 
