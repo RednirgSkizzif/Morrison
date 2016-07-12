@@ -4,14 +4,14 @@ Created by: Dylan Frizzell
 """
 
 from sys import argv
-import nltk
+import nltk as gram
 
 script, input_file = argv
 
 
 
 def break_into_sentences(textFile):
-    "This function will take the textFile and output a list of each discrete sentence"
+ #  "" "This function will take the textFile and output a list of each discrete sentence"""
 
     output_array = []
     working_file = open(textFile,'r')
@@ -26,14 +26,16 @@ def break_into_sentences(textFile):
         if (text[i]=='.' or text[i]=='?' or text[i]=='!' or text[i]==';'):
             output_array.append(text[startingPoint:i+1])
             startingPoint=i+1
-    for x in range(0,len(output_array)):
-        print(output_array[x])
-        print("----------------------------------------")
-
     working_file.close()
     return output_array
 
+def tokenize_sentence(sentence):
+#	"""This function will assign a part of speech with each word in a sentence"""
+	tokens = gram.word_tokenize(sentence)
+	return tokens
 
-
+def identify_words(wordlist):
+	word_types = gram.pos_tag(wordlist)
+	return word_types
 
 

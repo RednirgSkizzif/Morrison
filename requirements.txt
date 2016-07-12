@@ -1,2 +1,5 @@
 nltk
 pdfminer
+
+nltk 'punkt' dataset
+	sudo python -m nltk.downloader punkt	
