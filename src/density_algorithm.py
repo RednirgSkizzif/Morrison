@@ -1,4 +1,6 @@
-
+"""Density Algorithm 
+		Contains the algorithm for reading in the output of the sentencer.identify_words() and give 'bits of information' sentence fragments
+		"""
 def make_fragments(N_by_two):
 		fragment_list = []
 		runner = []

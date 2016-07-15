@@ -1,6 +1,7 @@
 nltk
-pdfminer
+pdfminer #Not needed for non-pdf parsing distribution
 
 nltk 'punkt' and 'tree' dataset
-	sudo python -m nltk.downloader punkt
-	sudo python -m nltk.downloader maxent_treebank_pos_tagger 
+	 python -m nltk.downloader punkt
+	 python -m nltk.downloader maxent_treebank_pos_tagger 
+	 python -m nltk.downloader averaged_perception_tagger #Alex needed this but I didn't

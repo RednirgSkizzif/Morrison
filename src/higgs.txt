@@ -1,0 +1,5 @@
+The Standard Model (SM) of particle physics [1], [2], [3] and [4] has been tested by many experiments over the last four decades and has been shown to successfully describe high energy particle interactions. However, the mechanism that breaks electroweak symmetry in the SM has not been verified experimentally. This mechanism [5], [6], [7], [8], [9] and [10], which gives mass to massive elementary particles, implies the existence of a scalar particle, the SM Higgs boson. The search for the Higgs boson, the only elementary particle in the SM that has not yet been observed, is one of the highlights of the Large Hadron Collider [11] (LHC) physics programme.
+
+Indirect limits on the SM Higgs boson mass of mH<158 GeV
+ at 95%
+  confidence level (CL) have been set using global fits to precision electroweak results [12]. Direct searches at LEP [13], the Tevatron [14], [15] and [16] and the LHC [17] and [18] have previously excluded, at 95% CL, a SM Higgs boson with mass below 600 GeV, apart from some mass regions between 116 GeV and 127 GeV.
